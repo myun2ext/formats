@@ -1,0 +1,9 @@
+variable_start="#{"
+variable_end="}"
+
+bracket="<#{bracket_body}>"
+tag="<#{bracket_body}>"
+close_tag="</#{tag_name}>"
+empty_tag="<#{bracket_body} />"
+
+attribute="#{attr_name}=\"#{attr_value}\""
